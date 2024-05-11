@@ -15,7 +15,7 @@ async function bootstrap() {
         servers: envs.natsServers,
       },
     },
-  );
+  );  
 
   app.useGlobalPipes(
     new ValidationPipe({
